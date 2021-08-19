@@ -1,0 +1,111 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+
+body {
+	background-color: whitesmoke;
+}
+
+/*
+I used these as visual guides for my margin, padding, and overall layout
+
+.container-fluid {
+	border-style: dotted;
+	border-color: black;
+}
+
+.container {
+	border-style: dotted;
+	border-color: black;
+}
+
+.col-sm-6 {
+	border-style: groove;
+	border-color: blueviolet;
+}
+
+.row {
+	border-style: solid;
+	border-color: yellowgreen;
+}
+*/
+
+nav {
+	border-radius: 4px;
+	background-color: #f8b735;
+	font-family: 'Lato', sans-serif;
+	opacity: 80%;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #213037;
+}
+
+a {
+	text-decoration: none;
+	color: #2b898b;
+}
+
+a:hover {
+	background-color: #f78d28;
+	border-radius: 4px;
+	color: #213037;
+}
+
+h3 {
+	font-family: 'Lato', sans-serif;
+	text-transform: capitalize;
+	color: #26704f;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+}
+
+th {
+	font-family: 'Lato', sans-serif;
+}
+
+tr {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+}
+
+li {
+	list-style: none;
+}
+
+form {
+	font-family: 'Lato', sans-serif;
+	color: #213037;
+}
+
+.btn {
+	background-color: #2b898b;
+	color: whitesmoke;
+}
+
+.btn:hover {
+	background-color: #f78d28;
+	color: #213037;
+}
+
+#newsletter {
+	background: linear-gradient(
+		101.9deg,
+		rgb(253, 183, 220) 25%,
+		rgb(240, 213, 190) 38.1%,
+		rgb(249, 240, 206) 55.5%,
+		rgb(253, 244, 210) 67.3%,
+		rgb(222, 248, 226) 85.2%,
+		rgb(200, 247, 242) 103.6%
+	);
+}
